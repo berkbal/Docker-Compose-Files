@@ -1,0 +1,28 @@
+version: '2.0'
+
+services:
+
+  wordpress:
+    image: wordpress
+    restart: always
+    ports:
+      - 35569:80
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: db_usr
+      WORDPRESS_DB_PASSWORD: db_pw
+      WORDPRESS_DB_NAME: db_name
+      MYSQL_ROOT_PASSWORD: db_pw
+    volumes:
+      - ./wordpress:/var/www/html
+        
+  db:
+    image: mariadb:latest
+    restart: always
+    environment:
+      MYSQL_DATABASE: mysql_db
+      MYSQL_USER: mysql_usr
+      MYSQL_PASSWORD: mysql_pw
+      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+    volumes:
+      - ./db:/var/lib/mysql
