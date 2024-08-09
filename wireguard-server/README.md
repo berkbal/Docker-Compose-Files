@@ -1,3 +1,5 @@
+![Wireguard-Logo](https://www.berkbal.com/wp-content/uploads/2024/08/WireGuard-Icon-Logo.wine_.png)
+
 Its a ready to go wireguard server container for personal usage. It automaticly generates peers and their configration files for fast usage. There is only 2 variables you should edit before up the container.
 
 **Installation Steps**  
