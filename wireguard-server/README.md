@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/b0118759-122a-44c2-9c27-1e29febd598e)Its a ready to go wireguard server container for personal usage. It automaticly generates peers and their configration files for fast usage. There is only 2 variables you should edit before up the container.
+Its a ready to go wireguard server container for personal usage. It automaticly generates peers and their configration files for fast usage. There is only 2 variables you should edit before up the container.
 
 **Installation Steps**  
 
