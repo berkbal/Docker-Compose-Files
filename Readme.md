@@ -23,8 +23,8 @@ Bu projeyi kullanmadan önce aşağıdaki yazılımların sisteminizde kurulu ol
 
 1. Repoyu klonlayın:
    ```bash
-   git clone https://github.com/kullanici_adi/proje-adi.git
-   cd proje-adi
+   git clone https://github.com/berkbal/Docker-Compose-Dosya-Arsivi
+   cd dizin
    ```
 2. Kullanmak istediğiniz docker-compose.yml dosyasının bulunduğu dizine gidin.
 3. `docker-compose up -d` komutu ile servisleri başlatabilirsiniz. Başlatmadan önce kendi sisteminize göre ayarlayıp, güçlü parolalar oluşturduğunuza emin olun. 
